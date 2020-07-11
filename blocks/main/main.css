@@ -1,4 +1,4 @@
-.main {
+/*.main {
   margin: 56px auto 0;
   display: flex;
   flex-direction: column;
@@ -10,4 +10,9 @@
     margin-top: 48px;
 }
 }
-
+*/
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

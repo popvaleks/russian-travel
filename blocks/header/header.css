@@ -1,20 +1,55 @@
 .header {
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   align-items: center;
-  padding: 28px 48px 0 48px;
+  padding-top: 28px;
+  margin: 0 auto;
   outline: 2px solid red;
+  align-content:center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .header{
+  /* width: calc(100% - ((1280px - 1184px)/1280px*100%); */
+  /* width: "calc(100 - ((1280 - 1184)/1280*100)" %; */
+  /* margin: 0 48px; */
+  width: 95,5%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90.625%;
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .header{
-  padding: 28px 24px 0;
+    /* width: calc(100% - ((768 - 720)/768*100%); */
+    width: 93.75%;
+    max-width: 720px;
+  /* margin: 0 24px; */
 }
 }
 
 @media screen and (max-width: 320px) {
   .header{
-  padding: 16px 16px 0;
+    /* width: calc(100% - ((320 - 288)/320*100%); */
+    width: 90%;
+    max-width: 320px;
+  /* margin: 0 16px; */
+  padding: 16px;
 }
 }
+
+
+
+
+
+
+
+
+
