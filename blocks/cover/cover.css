@@ -1,0 +1,12 @@
+.cover {
+  position: relative;
+  max-width: 1184px;
+  min-width: 320px;
+  max-height: 740px;
+  min-height: 200px;
+  width: 92.5%;
+  color: white;
+  margin: auto;
+  margin-bottom: 92px;
+  box-sizing: border-box;
+}
