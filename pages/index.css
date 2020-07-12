@@ -19,6 +19,9 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 
+/* Greed */
+@import url(../blocks/photo-greed/photo-greed.css);
+@import url(../blocks/photo-greed/__item/photo-greed__item.css);
 
 /*
 @media screen and (max-width: 1024px) {
