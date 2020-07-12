@@ -9,11 +9,20 @@
   margin-top: -10px;
   margin-bottom: 24px;
   box-sizing: border-box;
+  max-width: 484px;
+  margin-right: -16px;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
   font-size: 16px;
   line-height: 1.62;
+  margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .place__paragraph {
+  max-width: 288px;
   }
 }

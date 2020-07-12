@@ -9,4 +9,18 @@
   margin: auto;
   margin-bottom: 92px;
   box-sizing: border-box;
+  margin-top: 12px;
+}
+
+
+@media screen and (max-width:768px) {
+  .cover {
+    margin-top: 66px;
+  }
+}
+
+@media screen and (max-width:340px) {
+  .cover {
+    margin-top: 38px;
+  }
 }
