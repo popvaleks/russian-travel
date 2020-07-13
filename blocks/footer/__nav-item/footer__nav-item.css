@@ -1,0 +1,6 @@
+@media screen and (max-width:732px) {
+  .footer__nav-item {
+    margin-bottom: 32px;
+    text-decoration: none;
+  }
+}
