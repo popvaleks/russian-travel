@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  width: 100%;
   height: 740px;
   text-decoration: none;
   color: white;
@@ -12,6 +11,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  max-width: 1184px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .cover__overlay::before {
@@ -24,9 +27,14 @@
   top: 0;
   left: 0;
   z-index: 2;
-  opacity: 0.3;
-  /* transition: opacity linear 0.5s; */
+  opacity: .3;
 }
+
+.cover__overlay:hover::before {
+  background-color: #2A2C2F;
+  opacity: .8;
+  transition:  .8s ease;}
+
 
  @media screen and (max-width: 1024px) {
   .cover__overlay {

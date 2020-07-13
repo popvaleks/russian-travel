@@ -4,7 +4,7 @@
   width: 100%;
   min-width: 320px;
   font-family:'Inter', Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   margin: 0 auto;
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
 }
