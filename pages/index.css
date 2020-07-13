@@ -41,16 +41,10 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 
-/*
-@media screen and (max-width: 1024px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 320px) {
-
-}
-*/
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__ul/footer__ul.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-item/footer__nav-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
