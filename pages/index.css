@@ -6,6 +6,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/main/main.css);
 /* Lead */
 @import url(../blocks/lead/lead.css);
@@ -19,9 +20,9 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 
-/* Greed */
-@import url(../blocks/photo-greed/photo-greed.css);
-@import url(../blocks/photo-greed/__item/photo-greed__item.css);
+/* Grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /* Place */
 @import url(../blocks/places/places.css);
